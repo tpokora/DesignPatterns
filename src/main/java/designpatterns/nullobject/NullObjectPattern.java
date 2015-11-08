@@ -7,8 +7,10 @@ import java.util.ArrayList;
  */
 public class NullObjectPattern {
     public static void main(String[] args) {
-        // Same persons name list as in PersonFactory
-        // but additional one person to see NullPersonObject
+        System.out.println("=========================");
+        System.out.println("NullObject Design Pattern");
+        System.out.println("\nSame persons name list as in PersonFactory");
+        System.out.println("but additional one person to see NullPersonObject instead of NPE:");
         final String[] names = { "Tom", "Bob", "Kate", "John" };
 
         ArrayList<AbstractPerson> persons = new ArrayList<AbstractPerson>();
@@ -21,5 +23,6 @@ public class NullObjectPattern {
         for (AbstractPerson person : persons) {
             System.out.println(person.getName());
         }
+        System.out.println("=========================");
     }
 }
