@@ -32,7 +32,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.2.1</version>
                 <configuration>
-                    <mainClass>dessignpatterns.NewDesignPatterns</mainClass>
+                    <mainClass>designpatterns.NewDesignPatterns</mainClass>
                 </configuration>
             </plugin>
         </plugins>

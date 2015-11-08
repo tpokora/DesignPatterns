@@ -1,4 +1,4 @@
-package dessignpatterns;
+package designpatterns;
 /**
  * Created by Tomek on 2015-11-08.
  */
