@@ -1,4 +1,13 @@
+# IDE files
+/.idea
+/.settings
+
+.project
+*.iml
+
+# Build Files
 *.class
+/target
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
