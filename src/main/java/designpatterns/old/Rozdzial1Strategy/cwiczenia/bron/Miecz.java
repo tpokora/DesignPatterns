@@ -8,8 +8,7 @@ public class Miecz implements BronInterfejs {
 	public Miecz() {
 		dmg = 3;
 	}
-	
-	@Override
+
 	public void atakuj(Postac postac) {
 		postac.setHp(postac.getHp() - dmg);
 	}
